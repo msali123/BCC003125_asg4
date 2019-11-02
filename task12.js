@@ -2,7 +2,8 @@
         var now = new Date();
         var theday = now.getDate();
         if (theday < 16) {
-            console.log("First fifteen days of the month");
+            document.write("<h1>First fifteen days of the month</h1>");
         }
-        else console.log("Last fifteen days of the month");
-        
+        else {
+            document.write("<h1>Last fifteen days of the month</h1>");
+        }
